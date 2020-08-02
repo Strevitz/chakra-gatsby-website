@@ -2,3 +2,10 @@
 @import "reset";
 @import "grid";
 @import "all";
+
+.logo {
+  img {
+    width: auto;
+    height: 3.5rem;
+  }
+}
