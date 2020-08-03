@@ -2,12 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/chakraHero.png"
-import thumbnailEvent from "../../static/images/chakraIndividual.jpg"
-import thumbnailBoard from "../../static/images/chakraGroup.png"
-import thumbnailNews from "../../static/images/chakraPlener.jpg"
-import thumbnailTeams from "../../static/images/chakraMentor.jpg"
-import thumbnailStaff from "../../static/images/chakraTheory.jpg"
+import heroImg from "../../static/images/chakraHero.png"
+import individualImg from "../../static/images/chakraIndividual.jpg"
+import groupImg from "../../static/images/chakraGroup.png"
+import plenerImg from "../../static/images/chakraPlener.jpg"
+import mentorImg from "../../static/images/chakraMentor.jpg"
+import theoryImg from "../../static/images/chakraTheory.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -22,7 +22,7 @@ const IndexPage = () => (
         Cezarów rzucił wzrok surowy znać człowieka nie może. Widać, że
         nauczyciel ładny i przepraszał Sędziego.
       </p>
-      <img alt={"Dashboard"} src={featureImage} />
+      <img alt={"Chakra Hero"} src={heroImg} />
     </div>
 
     <div className={"container"}>
@@ -31,7 +31,7 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Event"} src={thumbnailEvent} />
+                <img alt={"Individual meetings"} src={individualImg} />
               </div>
             </div>
 
@@ -63,7 +63,7 @@ const IndexPage = () => (
 
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Board"} src={thumbnailBoard} />
+                <img alt={"Group meetings"} src={groupImg} />
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"News"} src={thumbnailNews} />
+                <img alt={"Plener meetings"} src={plenerImg} />
               </div>
             </div>
 
@@ -104,7 +104,7 @@ const IndexPage = () => (
 
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Team"} src={thumbnailTeams} />
+                <img alt={"Meditation mentoring"} src={mentorImg} />
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Users"} src={thumbnailStaff} />
+                <img alt={"Theorics of Ayurveda"} src={theoryImg} />
               </div>
             </div>
 
