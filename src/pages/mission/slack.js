@@ -2,19 +2,19 @@ import React from "react"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import SlackHiStaffImage from "../../../static/images/mission/chakraIcon.png"
-import thumbnailEventWebhook from "../../../static/images/mission/chakraRoom.jpeg"
-import thumbnailNewsWebhook from "../../../static/images/mission/chakraAula.jpg"
-import thumbnailNoteWebhook from "../../../static/images/mission/chakraGarden.jpg"
-import thumbnailGuid1 from "../../../static/images/mission/chakraContact.png"
-import thumbnailGuid2 from "../../../static/images/mission/chakraStart.png"
+import chakraIcon from "../../../static/images/mission/chakraIcon.png"
+import room from "../../../static/images/mission/chakraRoom.jpeg"
+import aula from "../../../static/images/mission/chakraAula.jpg"
+import garden from "../../../static/images/mission/chakraGarden.jpg"
+import contactImg from "../../../static/images/mission/chakraContact.png"
+import happyImg from "../../../static/images/mission/chakraStart.png"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="Slack Integration" />
 
     <div className={"page-header"}>
-      <img src={SlackHiStaffImage} style={{ height: "9rem", width: "auto" }} />
+      <img src={chakraIcon} style={{ height: "9rem", width: "auto" }} />
       <h2>Nasza misja</h2>
       <p>
         Naszym głównym celem jest zbudowanie świetnej kondycji dla wszystkich
@@ -31,7 +31,7 @@ const AboutPage = () => (
           <div className={"row"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Event"} src={thumbnailEventWebhook} />
+                <img alt={"Yoga Room"} src={room} />
               </div>
             </div>
 
@@ -41,7 +41,7 @@ const AboutPage = () => (
                 <p>
                   Zajecia odbywają się w grupach do 6 osób w naszej przestronnej
                   sali ćwiczeń zaprojektowanej w barwach natury w duchu
-                  feng-shui.
+                  fueng-shui.
                 </p>
               </div>
             </div>
@@ -62,7 +62,7 @@ const AboutPage = () => (
 
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Board"} src={thumbnailNewsWebhook} />
+                <img alt={"Study Room"} src={aula} />
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const AboutPage = () => (
           <div className={"row"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"News"} src={thumbnailNoteWebhook} />
+                <img alt={"Yoga Garden"} src={garden} />
               </div>
             </div>
 
@@ -115,14 +115,14 @@ const AboutPage = () => (
               Pomożemy wybrać dla Ciebie plan ćwiczeń, dietę oraz mentoring
               medytacyjny.
             </p>
-            <img alt={"News"} src={thumbnailGuid1} />
+            <img alt={"Contact us"} src={contactImg} />
 
             <h4>Krok 2</h4>
             <p>
               Ćwicz codziennie i medytuj zgodnie z naukami Ayurvedy. Ciesz się
               idealną kondycją fizyczną i spokojem wewnętrznym!
             </p>
-            <img alt={"News"} src={thumbnailGuid2} />
+            <img alt={"Enjoy Every Day"} src={happyImg} />
           </div>
         </div>
       </div>
