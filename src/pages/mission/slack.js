@@ -11,7 +11,7 @@ import happyImg from "../../../static/images/mission/chakraStart.png"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="Slack Integration" />
+    <SEO title="Nasza Misja" />
 
     <div className={"page-header"}>
       <img src={chakraIcon} style={{ height: "9rem", width: "auto" }} />

@@ -9,7 +9,7 @@ import brainImg from "../../static/images/brainIcon.png"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="O nas" />
 
     <div className={"page-header"}>
       <h2>Dlaczego Chakra?</h2>

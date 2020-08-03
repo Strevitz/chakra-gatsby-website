@@ -133,7 +133,7 @@ const Layout = ({ children }) => (
                 <a href="https://strzewiczek.pl" title={"Chakra"}>
                   Chakra
                 </a>
-                . All rights reserved.
+                . Wszystkie prawa zastrzeżone.
               </p>
             </div>
           </div>

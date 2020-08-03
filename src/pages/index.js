@@ -11,7 +11,7 @@ import theoryImg from "../../static/images/chakraTheory.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Make your Staff and Workspace Happy" />
+    <SEO title="Odkryj w sobie potęge spokoju" />
 
     <div className={"page-header home"}>
       <h1>Odkryj w sobie potęge spokoju</h1>
