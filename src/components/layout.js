@@ -130,7 +130,7 @@ const Layout = ({ children }) => (
             <div className={"copyright"}>
               <p>
                 Copyright {new Date().getFullYear()}, {` `}{" "}
-                <a href="https://strzewiczek.pl" title={"HiStaff"}>
+                <a href="https://strzewiczek.pl" title={"Chakra"}>
                   Chakra
                 </a>
                 . All rights reserved.
