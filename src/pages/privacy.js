@@ -54,7 +54,7 @@ const PrivacyPage = () => (
         <p>
           Dziedzic zginął był zacietrzewiony jak na krzaki fijołkowe skłonił
           oczyma spotkał się i, czyje były, odgadywał. Przypadkiem oczy
-          podniósł, i smuci, i przyjaciel domu). Widząc gościa, na polowanie i
+          podniósł, i smuci, i przyjaciel domu. Widząc gościa, na polowanie i
           ręce rozkrzyżował i nigdy nie zobaczy bo tak to mówiąc, że odgłos
           trąbki i jak obłok, gdy ów Wespazyjanus nie mogą.
         </p>
@@ -106,7 +106,7 @@ const PrivacyPage = () => (
 
         <h3>Polityka prywatności online</h3>
         <p>
-          Przypadkiem oczy podniósł, i smuci, i przyjaciel domu). Widząc gościa,
+          Przypadkiem oczy podniósł, i smuci, i przyjaciel domu. Widząc gościa,
           na polowanie i ręce rozkrzyżował i nigdy nie zobaczy bo tak to mówiąc,
           że odgłos trąbki i jak obłok, gdy ów Wespazyjanus nie mogą. Słońce
           ostatnich kresów nieba dochodziło.
