@@ -2,10 +2,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import informationImage from "../../static/images/gymIcon.png"
-import eventImage from "../../static/images/meditationIcon.png"
-import ProductivityImage from "../../static/images/bodyIcon.png"
-import happinessImage from "../../static/images/brainIcon.png"
+import gymImg from "../../static/images/gymIcon.png"
+import meditationImg from "../../static/images/meditationIcon.png"
+import bodyImg from "../../static/images/bodyIcon.png"
+import brainImg from "../../static/images/brainIcon.png"
 
 const AboutPage = () => (
   <Layout>
@@ -31,8 +31,8 @@ const AboutPage = () => (
           <div className={"col-6"}>
             <div className={"item"}>
               <img
-                alt={"Information"}
-                src={informationImage}
+                alt={"Be active"}
+                src={gymImg}
                 style={{ width: "100px", height: "auto" }}
               />
               <h3>Ćwiczenia fizyczne</h3>
@@ -47,8 +47,8 @@ const AboutPage = () => (
           <div className={"col-6"}>
             <div className={"item"}>
               <img
-                alt={"Event"}
-                src={eventImage}
+                alt={"Be calm"}
+                src={meditationImg}
                 style={{ width: "100px", height: "auto" }}
               />
               <h3>Warsztaty z medytacji</h3>
@@ -65,8 +65,8 @@ const AboutPage = () => (
           <div className={"col-6"}>
             <div className={"item"}>
               <img
-                alt={"Productivity"}
-                src={ProductivityImage}
+                alt={"know your body"}
+                src={bodyImg}
                 style={{ width: "100px", height: "auto" }}
               />
               <h3>Pobudzenie świadomości potrzeb ciała</h3>
@@ -84,8 +84,8 @@ const AboutPage = () => (
           <div className={"col-6"}>
             <div className={"item"}>
               <img
-                alt={"Happiness"}
-                src={happinessImage}
+                alt={"know your brain"}
+                src={brainImg}
                 style={{ width: "110px", height: "auto" }}
               />
               <h3>Pobudzenie świadomości potrzeb umysłu</h3>
