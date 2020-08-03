@@ -37,9 +37,10 @@ const AboutPage = () => (
               />
               <h3>Ćwiczenia fizyczne</h3>
               <p>
-                Nazywał się ukłoni i wysoką jego wiernym ludem! Jak go powitać.
-                Dawno domu wiecznie będzie wojna u Niemna odebrał wiadomość.
-                może zyska bo tak nas hordą gorszą od słońca promieni.
+                Nazywał się ukłoni i wysoką panią jego wiernym ludem! Jak go
+                powitać. Dawno domu wiecznie będzie wojna u Niemna odebrał
+                wiadomość. może zyska bo tak nas hordą gorszą od słońca
+                promieni.
               </p>
             </div>
           </div>
