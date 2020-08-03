@@ -13,8 +13,6 @@ import Header from "./header"
 import "../../static/styles/main.scss"
 import logo from "../../static/images/chakraLogo.png"
 import iconTwitter from "../../static/images/icon-twitter.svg"
-import iconLinkedin from "../../static/images/icon-linkedin.svg"
-import iconGitHub from "../../static/images/icon-github.svg"
 import iconInstagram from "../../static/images/icon-instagram.svg"
 
 const Layout = ({ children }) => (

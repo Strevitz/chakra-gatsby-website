@@ -2,19 +2,19 @@ import React from "react"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import SlackHiStaffImage from "../../../static/images/mission/slack-histaff.svg"
-import thumbnailEventWebhook from "../../../static/images/mission/slack-event-webhook.png"
-import thumbnailNewsWebhook from "../../../static/images/mission/slack-news-webhook.png"
-import thumbnailNoteWebhook from "../../../static/images/mission/slack-note-webhook.png"
-import thumbnailGuid1 from "../../../static/images/mission/slack-guid-1.png"
-import thumbnailGuid2 from "../../../static/images/mission/slack-guid-2.png"
+import SlackHiStaffImage from "../../../static/images/mission/chakraIcon.png"
+import thumbnailEventWebhook from "../../../static/images/mission/chakraRoom.jpeg"
+import thumbnailNewsWebhook from "../../../static/images/mission/chakraAula.jpg"
+import thumbnailNoteWebhook from "../../../static/images/mission/chakraGarden.jpg"
+import thumbnailGuid1 from "../../../static/images/mission/chakraContact.png"
+import thumbnailGuid2 from "../../../static/images/mission/chakraStart.png"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="Slack Integration" />
 
     <div className={"page-header"}>
-      <img src={SlackHiStaffImage} />
+      <img src={SlackHiStaffImage} style={{ height: "9rem", width: "auto" }} />
       <h2>Nasza misja</h2>
       <p>
         Naszym głównym celem jest zbudowanie świetnej kondycji dla wszystkich
@@ -37,10 +37,11 @@ const AboutPage = () => (
 
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Slack Event Webhook</h2>
+                <h2>Sala ćwiczeń</h2>
                 <p>
-                  The ability to send Event alerts to any channel when a new
-                  event is created by anyone.
+                  Zajecia odbywają się w grupach do 6 osób w naszej przestronnej
+                  sali ćwiczeń zaprojektowanej w barwach natury w duchu
+                  feng-shui.
                 </p>
               </div>
             </div>
@@ -51,8 +52,11 @@ const AboutPage = () => (
           <div className={"row"}>
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Slack News Webhook</h2>
-                <p>Let staff know about any news on the Slack channel.</p>
+                <h2>Sala wykładowa</h2>
+                <p>
+                  Sala wykładowa mieści się na przeciw sali do ćwiczeń, posiada
+                  wygodne miejsca nauki i kontemplacji dla każdego.
+                </p>
               </div>
             </div>
 
@@ -74,9 +78,15 @@ const AboutPage = () => (
 
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Slack Note Webhook</h2>
+                <h2>Jesteśmy z Wami</h2>
                 <p>
-                  Staff can see an alert about any post on the public board.
+                  Zajęcia organizujemy również w plenerze, w naszym ogrodzie,
+                  gdzie w okolicznościach pięknej natury możemy oddać się
+                  ćwiczeniom.
+                  <br />
+                  <br />
+                  Możemy również spotkać się z Wami w innym miescu, np. w
+                  miejscu pracy.
                 </p>
               </div>
             </div>
@@ -89,27 +99,28 @@ const AboutPage = () => (
       <div className={"container"}>
         <div className={"integration-guid"}>
           <div className={"title"}>
-            <h2>How to enable and use the Slack integration</h2>
+            <h2>Jak zacząć przygodę z Yogą i Ayurvedą?</h2>
           </div>
 
           <div className={"content"}>
-            <h4>Overview</h4>
+            <h4>To proste!</h4>
             <p>
-              You need to be an admin in order to enable the Slack integration.
-              With the Slack integration, you can send an alert to Slack.
+              Podkomorzemu ścisnął za domem urządzał wieczerzę. on może by stary
+              stojący zegar kurantowy w dalekim mieści kończył nauki, końca
+              doczekał nareszcie.
             </p>
-            <h4>Step 1</h4>
+            <h4>Krok 1</h4>
             <p>
-              Company admin needs to enable the integration one time for the
-              whole company to use.
+              Skontaktuj się z nami i zapisz się na pierwsze zajęcia za darmo.
+              Pomożemy wybrać dla Ciebie plan ćwiczeń, dietę oraz mentoring
+              medytacyjny.
             </p>
             <img alt={"News"} src={thumbnailGuid1} />
 
-            <h4>Step 2</h4>
+            <h4>Krok 2</h4>
             <p>
-              Set up your conditions, and press the Update button. You will be
-              able to send a notification to a specific Slack channel or to a
-              specific user.
+              Ćwicz codziennie i medytuj zgodnie z naukami Ayurvedy. Ciesz się
+              idealną kondycją fizyczną i spokojem wewnętrznym!
             </p>
             <img alt={"News"} src={thumbnailGuid2} />
           </div>

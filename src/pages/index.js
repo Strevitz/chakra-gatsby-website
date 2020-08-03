@@ -120,7 +120,7 @@ const IndexPage = () => (
 
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Wykłady z teorii Yogi</h2>
+                <h2>Wykłady z teorii Ayurvedy</h2>
                 <p>
                   Napoleon, człek mądry a brano z opieki panicz bogaty, krewny
                   pański i Asesor, razem, jakoby zlewa. I przyjezdny gość,
