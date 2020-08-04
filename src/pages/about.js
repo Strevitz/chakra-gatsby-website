@@ -15,7 +15,7 @@ const AboutPage = () => (
       <h2>Dlaczego Chakra?</h2>
       <p>
         Chakra to stan naszego ciała i duszy, poprzez ćwiczenia z nami
-        odnajdziesz harmonię między
+        odnajdziesz harmonię między duszą, a ciałem.
         <br />
         widzialną i niewidzialną stroną naszego bytu.
       </p>

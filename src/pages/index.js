@@ -16,11 +16,11 @@ const IndexPage = () => (
     <div className={"page-header home"}>
       <h1>Odkryj w sobie potęge spokoju</h1>
       <p>
-        Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba było głucho
-        w służbę rządu.
+        Chakra to stan naszego ciała i duszy, poprzez ćwiczenia z nami
+        odnajdziesz harmonię między
         <br />
-        Cezarów rzucił wzrok surowy znać człowieka nie może. Widać, że
-        nauczyciel ładny i przepraszał Sędziego.
+        Naszym głównym celem jest zbudowanie świetnej kondycji dla wszystkich
+        chętnych poznania technik Yogi.
       </p>
       <img alt={"Chakra Hero"} src={heroImg} />
     </div>
