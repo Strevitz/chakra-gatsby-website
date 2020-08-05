@@ -2,6 +2,8 @@
 
 ### Chakra landing page product website written with Gatsby JS boilerplate.
 
+![chakra-presentation-full](https://user-images.githubusercontent.com/61030079/89398290-357cab00-d711-11ea-9b61-8ff17b00a03c.png)
+
 ![chakra_presentation](https://user-images.githubusercontent.com/61030079/89377138-7bc21200-d6f1-11ea-8dc5-5cbebdd7cdd4.png)
 
 ## General info
