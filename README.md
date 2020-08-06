@@ -9,13 +9,12 @@
 ## General info
 
 This frontend application is perfect to present product or service in simple and direct way for customer.
-In the first place in the vicinity, the customer notes the possibility of booking first yoga classes and learns product specifications. 
+In the first place in the vicinity, the customer notes the possibility of booking a free first yoga classes and learns product specifications. 
 
 ## Tech info
 
-- The Vinyl shop website was written in **Gatsby JS**. I used **SCSS** and split CSS into
-  modules.
-- In a project, I wanted to learn use Gatsby JS and present product in simple landing page way.
+- The Chakra product website was written in **Gatsby JS**. I used **SCSS** and split CSS into one main and few thematic SCSS files.
+- In a project, I wanted to learn use Gatsby JS boilerplate and present product in a simple landing page way.
 
 ## Technologies
 
