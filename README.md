@@ -14,12 +14,16 @@ In the first place in the vicinity, the customer notes the possibility of bookin
 ## Tech info
 
 - The Chakra product website was written in **Gatsby JS**. I used **SCSS** and split CSS into one main and few thematic SCSS files.
-- In a project, I wanted to learn use Gatsby JS boilerplate and present product in a simple landing page way.
+- In a project, I wanted to learn use Gatsby JS boilerplate and present product in a simple landing page way. I also used React Helmet plugin to add metadata to website and get better SEO. Web Font Loader was used to implement web fonts in my project.
 
 ## Technologies
 
 - Javascript
 - React
+- Gatsby JS
+- React Helmet Plugin
+- Web Font Loader Plugin
+- Prop Types
 - Sassy CSS
 
 ## Setup
