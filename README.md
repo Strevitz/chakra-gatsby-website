@@ -15,6 +15,7 @@ In the first place in the vicinity, the customer notes the possibility of bookin
 
 - The Chakra product website was written in **Gatsby JS**. I used **SCSS** and split CSS into one main and few thematic SCSS files.
 - In a project, I wanted to learn use Gatsby JS boilerplate and present product in a simple landing page way. I also used React Helmet plugin to add metadata to website and get better SEO. Web Font Loader was used to implement web fonts in my project.
+- I used also Gatsby sharp and sharp transformer for images size control. 
 
 ## Technologies
 
@@ -23,6 +24,8 @@ In the first place in the vicinity, the customer notes the possibility of bookin
 - Gatsby JS
 - React Helmet Plugin
 - Web Font Loader Plugin
+- Gatsby Sharp
+- Gatsby Sharp Transformer
 - Prop Types
 - Sassy CSS
 
